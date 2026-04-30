@@ -1,0 +1,22 @@
+{
+    "name": "fredpiuma/zaslat-shipping",
+    "description": "WooCommerce shipping method with real-time Zaslat quotes",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZaslatShipping\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZaslatShipping\\Tests\\": "tests/"
+        }
+    }
+}
